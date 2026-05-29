@@ -2840,6 +2840,11 @@ clone-response@1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
+clsx@^1.0.4:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
+
 cluster-key-slot@^1.0.6:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/cluster-key-slot/-/cluster-key-slot-1.0.12.tgz#d5deff2a520717bc98313979b687309b2d368e29"
@@ -3613,16 +3618,12 @@ draft-js-focus-plugin@2.0.0-rc2:
     prop-types "^15.5.8"
     union-class-names "^1.0.0"
 
-draft-js-image-plugin@2.0.0-rc8:
-  version "2.0.0-rc8"
-  resolved "https://registry.yarnpkg.com/draft-js-image-plugin/-/draft-js-image-plugin-2.0.0-rc8.tgz#9ccd0d83c84f53dceefcd3c72f944e26ef9e2db5"
-  integrity sha512-bzoKv7PAkzBe1YTsMVP3bDSP92yAjia3s4Ltx5hB4Y7SmrP8YmV4deEA/ae5VuuxPuKKf+qhEFP4nqLqppRG6A==
+draft-js-image-plugin@2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/draft-js-image-plugin/-/draft-js-image-plugin-2.0.7.tgz#1077304e00a22a561a5d4de1ba7b2749e545ff1f"
+  integrity sha512-yy3GXquNWZ7u5WpIvEf6J3QNArFYLOqpVfRoKopcRSze9CFHDO+VfeQlK95GfpTq7GykRy7tBD5qqq4tQcQ3bQ==
   dependencies:
-    decorate-component-with-props "^1.0.2"
-    find-with-regex "^1.0.2"
-    immutable "~3.7.4"
-    prop-types "^15.5.8"
-    union-class-names "^1.0.0"
+    clsx "^1.0.4"
 
 draft-js-import-element@^1.3.3:
   version "1.3.3"
